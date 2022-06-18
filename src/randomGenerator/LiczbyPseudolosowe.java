@@ -17,7 +17,7 @@ public class LiczbyPseudolosowe {
 
 
         // losujemy randoma od 0-99
-        losowaLiczba2 = losowanie.nextInt(100);
+        losowaLiczba2 = losowanie.nextInt(91)+10;
 
         System.out.println ("RNG to " + losowaLiczba2 );
 

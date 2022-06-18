@@ -12,6 +12,7 @@ public class Odczyt2 {
 
 
         File mojPlik = new File(nazwaPliku);
+
         if (!mojPlik.exists()) {
             System.out.println(" Plik nie istnieje");
             System.exit(0);
@@ -22,6 +23,7 @@ public class Odczyt2 {
             String linia =  czytelnikPlik.nextLine();
             System.out.println("Kolejna linia pliku to " + linia);
         }
+
         czytelnikPlik.close();
 
     }
